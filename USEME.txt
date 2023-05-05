@@ -1,0 +1,62 @@
+HOW TO USE: Image Processor.
+
+There are 3 ways to run the program:
+
+java -jar Program.jar -file path-of-script-file : when invoked in this manner the program should
+open the script file, execute it and then shut down.
+
+java -jar Program.jar -text : when invoked in this manner the program should open in an interactive
+text mode, allowing the user to type the script and execute it one line at a time.
+This is how the program worked in the last assignment.
+
+java -jar Program.jar : when invoked in this manner the program should open the graphical user
+interface. This is what will happen if you simply double-click on the jar file.
+
+1. To use the application the user must run the jar file through the command prompt or terminal
+or opening the jar file itself, running the main method through the code itself also works.
+2. It is then that the user picks in which way they want to use the program
+3. If using the GUI the user will apply effects using the buttons the interface provides.
+4. The desired image must first be loaded to edit and save properly,
+5. If working solely through the command prompt or terminal Then a text file of steps can be entered
+or the user can manually submit the commands through the command prompt or terminal.
+6.When finished the image can be saved and it will be saved to the user desired path.
+7. The user may use the command q or quit to end their session.
+
+When the program is run a welcome message along with a list of commands is output to the prompt:
+
+Welcome to Dejah's Image Processor to get started please load an image and choose a way to run
+the program: -file, -text, application
+
+List of Commands:
+load imagePath imageName
+save imagePath imageName
+brighten value currentImageName newImageName
+vertical-flip currentImageName newImageName
+horizontal-flip currentImageName newImageName
+red-component currentImageName newImageName
+green-component currentImageName newImageName
+blue-component currentImageName newImageName
+value-component currentImageName newImageName
+intensity-component currentImageName newImageName
+luma-component currentImageName newImageName
+blur currentImageName newImageName
+sharpen currentImageName newImageName
+greyscale currentImageName newImageName
+sepia currentImageName newImageName
+
+in the GUI:
+
+An image can be flipped vertically by clicking on the "Vertical-Flip" button.
+An image can be flipped horizontally by clicking on the "Horizontal-Flip" button.
+Greyscale an image using the red value by clicking on the "Red-Component" button.
+Greyscale an image using the green value by clicking on the "Green-Component" button.
+Greyscale an image using the blue value by clicking on the "Blue-Component" button.
+Greyscale an image using the value by clicking on the "Value" button.
+Greyscale an image using the intensity is possible by clicking on the "Intensity" button.
+Greyscale an image using the luma is possible by clicking on the "Luma" button.
+An image can be blurred by clicking on the "Blur" button.
+An image can be sharpened by clicking on the "Sharpen" button.
+A Sepia filter can be applied to an image by clicking on the "Sepia" button.
+A Greyscale filter can be applied to an image  by clicking on the "Greyscale" button.
+
+And a histogram of the images RGB and intensity value will be displayed.
