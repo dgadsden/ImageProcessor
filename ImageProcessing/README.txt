@@ -1,5 +1,5 @@
 ImageProcessor Assignment
-By: Dejah Gadsden and Sonia Randolph (Sonia is no longer in the class :( )
+By: Dejah Gadsden
 Source of Test Images: test.ppm -> created using Gimp
 6color.ppm -> https://web.eecs.utk.edu/~ssmit285/guide/img/index.html
 2ColorVert.ppm -> created by cropping 6color.ppm
